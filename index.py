@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import random as rd
 
-plt.xlabel("Qtd de jogadas")
-plt.ylabel("Porcentagem")
-plt.title("""Probabilidade do resultado ser "cara" em uma moeda honesta""")
+plt.xlabel("Qtd de jogadas / Throws")
+plt.ylabel("Porcentagem / Percentage")
+plt.title("""Probabilidade de ser "Cara" / Probability of being "Heads" """)
 plt.ylim(0, 100)
 plt.axhline(y = 50, color = 'black', linestyle = '-')
 
